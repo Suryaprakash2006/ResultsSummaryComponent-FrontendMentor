@@ -26,10 +26,9 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-  height: 50vh;
-  width: 25vw;
+  justify-content: space-between;
+  height: 40vh;
+  width: 20vw;
   text-align: center;
   color: hsla(0, 0%, 100%, 0.653);
   font-family: "Hanken Grotesk", serif;
@@ -38,11 +37,11 @@ main {
   font-style: normal;
 }
 #yresult {
-  font-size: 18px;
+  font-size: 14px;
 }
 #result{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     display: flex;
@@ -52,12 +51,12 @@ main {
 }
 #scored{
     color: hsl(0, 0%, 100%);
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 800;
 }
 #outof{
     color: hsla(0, 0%, 100%, 0.37);
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
 }
 #discription{
@@ -70,21 +69,20 @@ main {
 }
 #Great{
     color: hsl(0, 0%, 100%);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 #para{
-    font-size: 15px;
+    font-size: 11px;
 }
 .second {
     padding: 25px 25px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    height: 50vh;
-    width: 25vw;
+    justify-content: space-between;
+    height: 40vh;
+    width: 20vw;
     color: hsl(224, 30%, 27%);
     font-family: "Hanken Grotesk", serif;
     font-optical-sizing: auto;
@@ -113,7 +111,7 @@ main {
     align-items: center;
     gap: 10px;
 }
-#img{
+#img1 , #img2 , #img3 , #img4{
     padding-top: 2px;
 }
 #Rhead{
@@ -159,11 +157,11 @@ main {
 .btn{
     border-style: none;
     color: hsl(0, 0%, 100%);
-    padding: 10px 0px;
+    padding: 13px 0px;
     border-radius: 30px;
     background-color: hsl(224, 30%, 27%);
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 600;
 }
 @media screen and (max-width: 700px){
     .main {
